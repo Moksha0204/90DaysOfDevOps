@@ -1,4 +1,4 @@
-Day 01 - Introduction to DevOps & Cloud
+                              Day 01 - Introduction to DevOps & Cloud
 
 
 1. What is your understanding of DevOps & Cloud Engineering?
