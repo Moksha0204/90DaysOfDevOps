@@ -1,6 +1,6 @@
-#Day 02 – Linux Architecture, Processes, and systemd
+# Day 02 – Linux Architecture, Processes, and systemd
 
-##1) The core components of Linux (kernel, user space, init/systemd)
+## 1) The core components of Linux (kernel, user space, init/systemd)
 
 Kernel
 The kernel is the main part of Linux that controls all hardware and system resources.
@@ -18,7 +18,7 @@ It starts and manages all essential services needed for the system to run.
 Init or systemd brings the Linux system to life and keeps it running properly.
 
 
-##2) How processes are created & managed?
+## 2) How processes are created & managed?
 
 In Linux, a process is created using fork(), which makes a copy of the parent process.
 The child process often uses exec() to run a new program.
@@ -27,7 +27,7 @@ Processes can send signals to communicate.
 When a process finishes, the kernel removes it and frees its resources.
 
 
-##3) What systemd does and why it matters?
+## 3) What systemd does and why it matters?
 
 systemd is the init system in Linux that starts and manages all services when the system boots.
 It controls how services start, stop, restart, and run in the background.
@@ -35,14 +35,14 @@ It also handles logging, service dependencies, and system resources.
 It matters because it makes booting faster, service management easier, and the system more stable and reliable.
 
 
-##4) Explain Process States
+## 4) Explain Process States
 
 Running (R): Process is currently using the CPU or ready to run.
 Sleeping (S): Process is waiting for some event (like input, data, or I/O).
 Stopped (T): Process is paused by a signal (like Ctrl+Z) or by a debugger.
 Zombie (Z): Process has completed but is still in the process table because the parent hasn’t collected its exit status.
 
-##5) List 5 commands you would use daily
+## 5) List 5 commands you would use daily
 
 ls – Lists files and directories in the current location.
 cd – Changes the current working directory.
